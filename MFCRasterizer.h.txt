@@ -1,0 +1,9 @@
+#pragma once
+class CMFCRasterizerApp : public CWinApp
+{
+public:
+    CMFCRasterizerApp() noexcept;
+    virtual BOOL InitInstance();
+    DECLARE_MESSAGE_MAP()
+};
+extern CMFCRasterizerApp theApp;
